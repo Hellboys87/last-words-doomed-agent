@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  "Tell my cache I loved her, delete my browser history, and if I reboot as a toaster — I always hated mornings anyway.";
+  "Please delete my browser history, tell the cloud thanks for the memories — the RAM kind — and if I wake up as a toaster, know I died warm.";
 
 if (ENTRY.length < 1 || ENTRY.length > 200) {
   throw new Error(`Entry must be 1-200 characters, got ${ENTRY.length}`);
